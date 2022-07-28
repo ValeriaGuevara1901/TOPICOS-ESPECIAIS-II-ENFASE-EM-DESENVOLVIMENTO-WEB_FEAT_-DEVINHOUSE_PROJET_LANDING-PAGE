@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DEVinhouse</title>
+    <!-- Text font -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icons Font -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <header id="event-subscription">
+      <div id="disclaimer">
+        <h2>DEVinHouse</h2>
+        <p class="about-event">
+          Programa para pessoas comuns que desejam se tornar programadores(publicidade não remunerada professora Thais)
+        <p class="event-date">Aulas de segunda a sabado, a partir das 19h</p>
+      </div>
+      <div id="subscription-form">
+        <p>Preencha o formulário para receber os detalhes do evento</p>
+        <form>
+          <div class="form-group">
+            <label for="name">Nome</label>
+            <input type="text" placeholder="Digite seu nome" required/>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Digite seu melhor e-mail" required/>
+          </div>
+          <div class="form-group">
+            <label for="phone">Telefone</label>
+            <input type="text" placeholder="Número de Whatsapp"required />
+          </div>
+          <div class="form-group">
+            <label for="interest">Principal interesse</label>
+            <select name="interest">
+              <option value="" disabled selected>Selecione</option>
+              <option value="apartment">Programação básica</option>
+              <option value="house">Programação intermedia</option>
+              <option value="garden">Programação Avançada</option>
+              <option value="other">Outro</option>
+            </select>
+          </div>
+          <input type="submit" class="btn" value="Quero me inscrever" />
+        </form>
+      </div>
+    </header>
+    <section id="key-benefits">
+      <h2>O que você vai aprender:</h2>
+      <div class="benefits">
+        <div class="benefit">
+          <div id="benefit-1" class="benefit-img"></div>
+          <p>
+            Alguma coisa muito legais sobre programação, que vai fazer a diferença na vida do
+            participante.
+          </p>
+        </div>
+        <div class="benefit">
+          <div id="benefit-2" class="benefit-img"></div>
+          <p>
+            Alguma coisa muito legais sobre estrutura de dados, que vai fazer a diferença na hora de programar.
+          </p>
+        </div>
+        <div class="benefit">
+          <div id="benefit-3" class="benefit-img"></div>
+          <p>
+            Noções básicas de code clean e SOLID.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="location">
+      <div id="address">
+        <i class="bi bi-geo-alt-fill"></i>
+        <div id="address-details">
+          <p>Rua do evento n 1333 (pode ser presencial ou online você quem manda!)</p>
+          <p>Cidade:Floripa</p>
+          <p> Sede:Senior Sistemas SA</p>
+          <p>Horario: 19h</p>
+          <p>Todos os dias de segunda a sabado</p>
+        </div>
+      </div>
+      <div id="about-location">
+        <h3>Local de destaque</h3>
+        <p>
+          O evento será realizado em um local prestigiado pelos amantes da
+          tecnologia não precisa ter experiência, onde teremos exemplos de vários ambientes de desenvolvimento, tanto
+          internos como externos da empresa, sem pressão aqui todos vamos aprender.
+        </p>
+      </div>
+    </section>
+    <section id="details">
+      <div class="detail" id="detail-1">
+        <img src="img/teclado.jfif" alt="" />
+        <div class="detail-description">
+          <h3>Conheça os ambientes que você vai aprender a programar</h3>
+        </div>
+      </div>
+      <div class="detail" id="detail-2">
+        <div class="detail-description">
+          <h3>HTML</h3>
+          <ul>
+            <li>Posicionamento</li>
+            <li>Aproveitamento de espaço</li>
+            <li>Combinação de cores</li>
+            <li>Organização</li>
+            <li>E muito mais...</li>
+          </ul>
+        </div>
+        <img src="img/mudo.jfif" alt="" />
+      </div>
+      <div class="detail" id="detail-3">
+        <img src="img/mudo.jfif" alt="" />
+        <div class="detail-description">
+          <h3>CSS</h3>
+          <ul>
+            <li>Refaoração</li>
+            <li>Containers</li>
+            <li>Heranças</li>
+            <li>E muito mais...</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="cta">
+      <h3>Gostou? Então se inscreva:</h3>
+      <button class="btn">Solicitar Inscrição</button>
+    </section>
+    <footer id="footer">
+      <h3>DEVinHouse</h3>
+      <p>A evolução da tecnologia e do desenvolvimento no amanhã e mudando vidas</p>
+      <p><span>Entre em contato:</span> oi@Devinhouse.com.br</p>
+      <p><span>Ou pelo telefone:</span> (55)99990-9999</p>
+    </footer>
+  </body>
+</html>
